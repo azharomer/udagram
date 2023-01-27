@@ -51,7 +51,11 @@ workflows:
   udagram:
     jobs:
       - build-deploy:
+<<<<<<< HEAD
           context: aws
+=======
+          filters:
+>>>>>>> ead41bfb2c16744efd2c372282ed2059dd9e83c2
             branches:
               only:
                 - master
