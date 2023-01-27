@@ -10,7 +10,7 @@ Applaction used AWS cloud (RDS, EB , S3)
 2- Elastic Beanstalk (EB)
  `udagram-api app deploy on  AWS EB service 
  `.
- URL: `Udagramapi10581334184-env.eba-ujmdxbep.us-east-1.elasticbeanstalk.com`
+ URL: `http://Udagramapi10581334184-env.eba-ujmdxbep.us-east-1.elasticbeanstalk.com`
 
  3- AWS S3 (S3)
  `udagram-frontend app deploy on  AWS S3 Bucket, and it be public to make end user can access app url`.
