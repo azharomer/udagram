@@ -32,6 +32,26 @@ This application is provided to you as an alternative starter project if you do 
 - A S3 bucket for hosting uploaded pictures.
 
 ```
+### Environment 
+- create file .env in root of udagram-api folder and set this data and set your data in ####
+```
+POSTGRES_HOST = ####
+POSTGRES_USERNAME = ####
+POSTGRES_DB =  ####
+POSTGRES_PASSWORD = #### 
+POSTGRES_PORT = 5432
+PORT = 3000
+RDS_DIALECT = postgres
+AWS_REGION = us-east-1
+AWS_PROFILE = default
+AWS_BUCKET = ####
+EB_APP = ####
+EB_ENV = ####
+URL = "http://localhost" 
+JWT_SECRET = '####'
+AWS_ACCESS_KEY_ID = ####
+AWS_SECRET_ACCESS_KEY = ####
+```
 
 ### Installation
 
